@@ -1,7 +1,7 @@
 body {
     background-color: rgb(46, 46, 46);
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(234, 245, 255);
+    color: rgb(235, 235, 235);
     box-sizing: border-box;
     margin: 0;
 }
@@ -20,7 +20,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: rgb(234, 245, 255);
+    color: rgb(235, 235, 235);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,7 +39,7 @@ body {
     font-size: 17px;
     border: none;
     outline: none;
-    color: rgb(234, 245, 255);
+    color: rgb(235, 235, 235);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -49,13 +49,13 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(40, 117, 113);
+    background-color:rgb(0, 117, 146);
     min-width: 160px;
   }
 
   .dropdown-content a {
     float: none;
-    color: rgb(234, 245, 255);
+    color: rgb(235, 235, 235);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -63,12 +63,12 @@ body {
   }
 
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(0, 63, 122);
-    color: rgb(234, 245, 255);
+    background-color: rgb(0, 109, 136);
+    color: rgb(235, 235, 235);
   }
 
   .dropdown-content a:hover {
-    background-color: rgb(0, 89, 172);
+    background-color: rgb(0, 109, 136);
     color: black;
   }
 
@@ -89,7 +89,7 @@ body {
     padding-bottom: 30px;
 }
 
-.text h1, h2, h3, p, a{
+.text h1, h2, h3, p{
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -100,7 +100,7 @@ h1 {
 }
 
 a {
-    color: rgb(234, 245, 255);
+    color: rgb(235, 235, 235);
 }
 
 
@@ -152,7 +152,7 @@ a {
 
 @media screen and (max-width: 778px) {
     body {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .link {
@@ -208,7 +208,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .text h1 {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .dam {
@@ -225,7 +225,7 @@ a {
 
 @media screen and (max-width: 414px) {
     body {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
@@ -251,5 +251,5 @@ a {
 }
 
 .footer a:hover, .navbar a:hover {
-    background-color: rgb(0, 89, 172);
+    background-color: rgb(0, 108, 134);
 }
