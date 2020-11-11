@@ -19,7 +19,7 @@ h1, h2, h3 {
     margin-left: 35%;
 }
 
-.text h1, h2, h3, p{
+.text h1, h2, h3, .text p{
     margin-left: 5vw;
     margin-right: 5vw;
 }
@@ -154,6 +154,14 @@ h4 {
         width: 13%;
         height: auto;
     }
+
+    .ceo, .coo {
+        font-size: 1.4vw;
+    }
+
+    h4 {
+        font-size: 1.6vw;
+    }
     
     .text h1, h2, h3, .text p{
         margin-left: 20vw;
@@ -169,7 +177,7 @@ h4 {
     }
 
     .footer {
-        font-size: 1.4vw;
+        font-size: 2.7vh;
     }
 
     .footer [type=media] {
@@ -183,10 +191,6 @@ h4 {
 
     .title {
         font-size: 24px;
-    }
-
-    h4 {
-        font-size: 28px;
     }
 }
 
