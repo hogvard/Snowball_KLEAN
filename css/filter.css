@@ -4,17 +4,28 @@ body {
     color: rgb(235, 235, 235);
     box-sizing: border-box;
     margin: 0;
+    letter-spacing: 0.5px;
+    line-height: 2;
 }
 
+.text h1, h2, h3, p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
 
 /*Navbar*/
 .navbar {
     overflow: hidden;
     background-color: rgb(0,157,196);
-}
-
-.navbar [type=media], .navbar [type=contact] {
-    display: none;
 }
 
 .navbar a {
@@ -24,6 +35,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+/*.navbar [type=media], .navbar [type=contact] {
+    display: none;
 }
 
 .navbar .icon {
@@ -74,8 +89,10 @@ body {
 
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  }*/
 
+
+/*Innhold*/  
 .filter {
     width: 70%;
     height: auto;
@@ -84,24 +101,14 @@ body {
     padding-bottom: 30px;
 }
 
-.text h1, h2, h3, p{
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-h1 {
-    margin-top: 5%;
-    margin-bottom: 3%;
-}
-
 
 /*Responsive*/
 @media screen and (min-width: 1200px) {
-
-    .text {
-        font-size: 1.3vw;
+    .text h1, h2, h3, .text p{
+        margin-left: 20vw;
+        margin-right: 20vw;
     }
-
+    
     .footer {
         font-size: 1.4vw;
     }
@@ -120,24 +127,57 @@ h1 {
         font-size: 1.5vw;
         padding: 1vw 1.5vw;
     }
+
+    .text, p {
+        font-size: 2.7vh;
+    }
+
+    h1, h2, h3 {
+        font-size: 3.5vh;
+    }
 }
 
-@media screen and (min-width: 778px) {
-    .dropdown {
-        display: none;
+@media screen and (max-width: 1200px) {
+    .text, p {
+        font-size: 2.7vh;
     }
+
+    h1, h2, h3 {
+        font-size: 3vw;
+    } 
+}
+
+@media screen and (max-width: 810px) {
+    .footer a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+    }   
 }
 
 @media screen and (max-width: 778px) {
     body {
-        font-size: 18px;
+        font-size: 12px;
+    }
+
+    .footer a {
+        width: 83%;
+    }
+
+    .footer {
+        font-size: 2vw;
     }
 
     .navbar {
         font-size: 16px;
     }
 
-    .navbar a:not(:first-child), .dropdown .dropbtn {
+    /*.navbar a:not(:first-child), .dropdown .dropbtn {
         display: none;
       }
 
@@ -171,24 +211,36 @@ h1 {
 
     .footer {
         display: none;
-    }
+    }*/
 }
 
 @media screen and (max-width: 600px) {
+    .text h1 {
+        font-size: 20px;
+    }
+
+    .footer a {
+        width: 83%;
+    }
+
+    .footer {
+        font-size: 2.8vw;
+    }
+
     .filter {
         width: 80%;
         height: auto;
         margin-left: 10%;
-    }
-
-    .text h1 {
-        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 414px) {
     body {
         font-size: 14px;
+    }
+
+    .footer {
+        font-size: 3vw;
     }
 
     .filter {
@@ -212,6 +264,7 @@ h1 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 2%;
 }
 
 .contact {
@@ -220,5 +273,5 @@ h1 {
 }
 
 .footer a:hover, .navbar a:hover {
-    background-color:  rgb(0, 108, 134);
+    background-color: rgb(0, 108, 134);
 }
