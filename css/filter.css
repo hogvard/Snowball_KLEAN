@@ -109,8 +109,8 @@ h1 {
         margin-right: 20vw;
     }
     
-    .footer {
-        font-size: 2.7vh;
+    .footer a, .contact {
+        font-size: 2vh;
     }
 
     .footer [type=media] {
@@ -133,24 +133,32 @@ h1 {
     }
 
     h1, h2, h3 {
-        font-size: 3.5vh;
+        font-size: 2.7vw;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .text, p {
+    .text, .text p {
         font-size: 2.7vh;
     }
 
     h1, h2, h3 {
-        font-size: 3vw;
+        font-size: 3.4vw;
     } 
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 915px) {
+    h1, h2, h3 {
+        font-size: 4vw;
+    }
+    
     .footer a {
         width: 90%;
         text-align: center;
+    }
+
+    .footer {
+        font-size: 2.7vw;
     }
 
     .contact {
@@ -161,8 +169,12 @@ h1 {
 }
 
 @media screen and (max-width: 778px) {
-    body {
-        font-size: 12px;
+    .text, .text p {
+        font-size: 2.7vh;
+    }
+
+    h1, h2, h3 {
+        font-size: 5.5vw;
     }
 
     .footer a {
@@ -170,7 +182,7 @@ h1 {
     }
 
     .footer {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .navbar {
@@ -215,8 +227,8 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-    .text h1 {
-        font-size: 20px;
+    h1, h2, h3 {
+        font-size: 7vw;
     }
 
     .footer a {
@@ -224,7 +236,7 @@ h1 {
     }
 
     .footer {
-        font-size: 2.8vw;
+        font-size: 4.5vw;
     }
 
     .filter {
@@ -235,12 +247,12 @@ h1 {
 }
 
 @media screen and (max-width: 414px) {
-    body {
-        font-size: 14px;
+    .text, .text p {
+        font-size: 2.4vh;
     }
 
-    .footer {
-        font-size: 3vw;
+    h1, h2, h3 {
+        font-size: 7vw;
     }
 
     .filter {
