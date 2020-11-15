@@ -146,7 +146,11 @@ a {
     }
 
     h1, h2, h3 {
+<<<<<<< HEAD
         font-size: 4vw;
+=======
+        font-size: 3.5vw;
+>>>>>>> b4d2e710fedea7e1e4bde624b33b9ffaad8d77cd
     }
 
     .footer a {
@@ -204,7 +208,11 @@ a {
     }
 
     h1, h2, h3 {
+<<<<<<< HEAD
         font-size: 4.5vw;
+=======
+        font-size: 5vw;
+>>>>>>> b4d2e710fedea7e1e4bde624b33b9ffaad8d77cd
     }
 }
 
