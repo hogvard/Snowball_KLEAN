@@ -146,7 +146,7 @@ a {
     }
 
     h1, h2, h3 {
-        font-size: 5.5vw;
+        font-size: 4vw;
     }
 
     .footer a {
@@ -175,7 +175,7 @@ a {
 
 @media screen and (max-width: 600px) {
     h1, h2, h3 {
-        font-size: 7vw;
+        font-size: 4vw;
     }
 
     .footer a {
@@ -204,7 +204,7 @@ a {
     }
 
     h1, h2, h3 {
-        font-size: 7vw;
+        font-size: 4.5vw;
     }
 }
 
